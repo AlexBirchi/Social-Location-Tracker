@@ -6,13 +6,52 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/toggle_location_switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="168dp"
+        android:text="@string/your_location"
+        app:layout_constraintBottom_toTopOf="@+id/view_locations_button"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/view_locations_button"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="31dp"
+        android:text="@string/view_locations"
+        android:onClick="launchViewLocationsActivity"
+        app:layout_constraintBottom_toTopOf="@+id/view_friend_requests_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggle_location_switch" />
+
+    <Button
+        android:id="@+id/view_friend_requests_button"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="29dp"
+        android:text="@string/view_friend_requests"
+        android:onClick="launchViewFriendRequestsActivity"
+        app:layout_constraintBottom_toTopOf="@+id/add_friends_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_locations_button" />
+
+    <Button
+        android:id="@+id/add_friends_button"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="189dp"
+        android:text="@string/add_friends"
+        android:onClick="launchSendFriendRequestActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_friend_requests_button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

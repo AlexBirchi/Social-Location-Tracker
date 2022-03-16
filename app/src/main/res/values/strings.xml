@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Social-Location-Tracker</string>
+    <string name="app_name">Social Location Tracker</string>
+    <string name="view_your_friends_location">View your friends location</string>
+    <string name="send_friend_request_text">Enter username&#8230;</string>
+    <string name="send_friend_request_button">Send request</string>
+    <string name="view_locations">View locations</string>
+    <string name="view_friend_requests">View friend requests</string>
+    <string name="add_friends">Add friends</string>
+    <string name="your_location">Your location</string>
+    <string name="accept_friend_request">Accept friend request</string>
+    <string name="decline_friend_request">Decline friend request</string>
 </resources>
