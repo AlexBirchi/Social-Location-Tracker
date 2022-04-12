@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/friend_request_item_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ViewFriendRequestsActivity">
+
+    <TextView
+        android:id="@+id/friend_request_username_text_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="46dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonAccept"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonAccept"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonAccept" />
+
+    <ImageButton
+        android:id="@+id/imageButtonAccept"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/green"
+        android:contentDescription="@string/accept_friend_request"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonDecline"
+        app:layout_constraintStart_toEndOf="@+id/friend_request_username_text_view"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/accept_request" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDecline"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="45dp"
+        android:backgroundTint="@color/red"
+        android:contentDescription="@string/decline_friend_request"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonAccept"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonAccept"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonAccept"
+        app:srcCompat="@drawable/decline_request" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

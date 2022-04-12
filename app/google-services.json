@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "825005872888",
+    "project_id": "social-location-tracker",
+    "storage_bucket": "social-location-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825005872888:android:482664e9b884a934290d0d",
+        "android_client_info": {
+          "package_name": "com.social_location_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825005872888-2r8lom3cobs74vbageeb4j2cv48mf0eo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACJDoUSO98smtFWnKlqFrEF9Xe-Ov_CzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825005872888-2r8lom3cobs74vbageeb4j2cv48mf0eo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
