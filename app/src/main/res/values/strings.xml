@@ -9,4 +9,11 @@
     <string name="your_location">Your location</string>
     <string name="accept_friend_request">Accept friend request</string>
     <string name="decline_friend_request">Decline friend request</string>
+    <string name="prompt_email">example@email.com</string>
+    <string name="prompt_password">password</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="prompt_repeat_password">repeat password</string>
+    <string name="prompt_login_here">Login here</string>
+    <string name="prompt_register_here">Register Here</string>
 </resources>

@@ -5,8 +5,12 @@
       <map>
         <entry key="..\:/Facultate/CM/Social-Location-Tracker/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.2265" />
         <entry key="..\:/Facultate/CM/Social-Location-Tracker/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2265" />
+        <entry key="..\:/Facultate/CM/Social-Location-Tracker/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.16331994645247658" />
+        <entry key="..\:/Facultate/CM/Social-Location-Tracker/app/src/main/res/layout-w936dp/activity_login.xml" value="0.190625" />
         <entry key="..\:/Facultate/CM/Social-Location-Tracker/app/src/main/res/layout/activity_location_view.xml" value="0.25" />
-        <entry key="..\:/Facultate/CM/Social-Location-Tracker/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Facultate/CM/Social-Location-Tracker/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Facultate/CM/Social-Location-Tracker/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Facultate/CM/Social-Location-Tracker/app/src/main/res/layout/activity_register.xml" value="0.1" />
         <entry key="..\:/Facultate/CM/Social-Location-Tracker/app/src/main/res/layout/activity_send_friend_request.xml" value="0.25416666666666665" />
         <entry key="..\:/Facultate/CM/Social-Location-Tracker/app/src/main/res/layout/activity_view_friend_requests.xml" value="0.264" />
         <entry key="..\:/Facultate/CM/Social-Location-Tracker/app/src/main/res/layout/activity_view_locations.xml" value="0.25416666666666665" />
